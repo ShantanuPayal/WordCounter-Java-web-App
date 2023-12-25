@@ -32,10 +32,10 @@ WordCounter is a simple Java web application that calculates the total number of
 ## Usage
 
 1. Enter text in the provided text box.
-
+![Home Page](wordcount_jsp.png)
   
 2. Click the "Count Words" button to calculate the total number of words.
-
+![Home Page](result_jsp.png)
 ## Folder Structure
 
 - `src`: Contains Java Servlet files.
