@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+     background-image: url('wcimg.png'); /* Adjust the path as per your directory structure */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: #428bca;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px; /* Adjust margin to push content below navbar */
+}
+label {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/* Style for the input field */
+input[type="text"] {
+    padding: 15px; /* Increase padding to make the input box bigger */
+    font-size: 16px;
+    width: 300px; /* Adjust width as needed */
+    height: 125px;
+}
+h1 {
+    margin: 0;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #428bca;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.result-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 0 auto; /* Center result container */
+    text-align: left;
+}
+
+.result-container h2 {
+    color: #428bca;
+    margin-bottom: 10px;
+}
+
+.result-container p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #428bca; /* Matching navbar color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a.button:hover {
+    background-color: #3071a9; /* Darker color on hover */
+}
+footer {
+      background-color: #428bca; /* Navbar color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}ibc
+footer span {
+    font-size: 18px;
+}
